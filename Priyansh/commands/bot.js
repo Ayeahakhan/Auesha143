@@ -338,7 +338,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
     if ((event.body.toLowerCase() == "🥵")) {return api.sendMessage("KUTTY PICHY PAR GAY THY KIYA BHAI 😒", threadID);
      };
 
-  if ((event.body.toLowerCase() == "😍")) {return api.sendMessage("IS NAZAR SE MERE OWNER SHAAN KO DEKHO MAZA NA AY TO PAISE WAPIS 😝😂 ", threadID);
+  if ((event.body.toLowerCase() == "😍")) {return api.sendMessage("IS NAZAR SE MERE OWNER KHAN KO DEKHO MAZA NA AY TO PAISE WAPIS 😝😂 ", threadID);
      };
 
   if ((event.body.toLowerCase() == "😎")) {return api.sendMessage("Chasma hatao na sahab kiya naam hai apka😜😜", threadID);
