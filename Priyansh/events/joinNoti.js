@@ -45,7 +45,7 @@ USE HELP TO SEE COMMAND
 <<<<<------------------------------>>>>>
 AND FOR ANY REPORT OR CONTACT BOT DEVELOPER
 
-BOT  OWNER: 𝐊𝐇𝐀𝐍 𝐒𝐀𝐇𝐀𝐁
+OWNER: 𝐊𝐇𝐀𝐍 𝐒𝐀𝐇𝐀𝐁
 
 ♻️Facebook: 
 
@@ -101,4 +101,4 @@ https://www.instagram.com/khansahab143?igsh=MXVneXZ6bzR4bHhvcg==￼
                         return api.sendMessage(formPush, threadID);
                 } catch (e) { return console.log(e) };
         }
-                                             }
+                }
