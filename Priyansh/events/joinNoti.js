@@ -31,9 +31,9 @@ module.exports.run = async function({ api, event }) {
         if (event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) {
                 api.changeNickname(`{ ${global.config.PREFIX} } × ${(!global.config.BOTNAME) ? "bot" : global.config.BOTNAME}`, threadID, api.getCurrentUserID());
                 const fs = require("fs");
-                return api.sendMessage("Assalamu Alaikum Everyone🥀🥀", event.threadID, () => api.sendMessage({body:`🌺KHAN🦋🌺 CONNECTED«
+                return api.sendMessage("Assalamu Alaikum Everyone🥀🥀", event.threadID, () => api.sendMessage({body:`🌺KHAN SAHAB🦋🌺 CONNECTED«
 
-Bot Made By 𝗞𝗛𝗔𝗡 𝗦𝗔𝗛𝗔𝗕☘️
+Bot Made By KR KHAN  SAHAB☘️
 <------------------------------>  
 BOT CONNECTED SUCCESFUL !!! 
 
@@ -45,7 +45,7 @@ USE HELP TO SEE COMMAND
 <<<<<------------------------------>>>>>
 AND FOR ANY REPORT OR CONTACT BOT DEVELOPER
 
-OWNER: 𝐊𝐇𝐀𝐍 𝐒𝐀𝐇𝐀𝐁
+OWNER: 𝐌𝐑 𝐊𝐇𝐀𝐍 𝐒𝐀𝐇𝐀𝐁
 
 ♻️Facebook: 
 
@@ -55,11 +55,11 @@ Youtube Site : N/A
 
 ☢️ INSTAGRAM: N/A
 
-https://www.instagram.com/khansahab143?igsh=MXVneXZ6bzR4bHhvcg==￼
+https://www.instagram.com/khansahab345?igsh=MXVneXZ6bzR4bHhvcg==￼
 
-☣️Email: khansahab143@gmail.com
+☣️Email: khansahab345@gmail.com
 
-⚠️Wp: +91 9253××××83 `, attachment: fs.createReadStream(__dirname + "/cache/")} ,threadID));
+⚠️Wp: +91 9253****83 `, attachment: fs.createReadStream(__dirname + "/cache/DhFHY1LcrjWZwBRkMlrtOdHr7QOeiGFMZqBGa4AEErRO.mp4")} ,threadID));
         }
         else {
                 try {
@@ -80,7 +80,7 @@ https://www.instagram.com/khansahab143?igsh=MXVneXZ6bzR4bHhvcg==￼
                         }
                         memLength.sort((a, b) => a - b);
 
-                        (typeof threadData.customJoin == "undefined") ? msg = "𝐖𝐞𝐥𝐜𝐨𝐦𝐞   𝐓𝐨  𝐤𝐡𝐚𝐧 𝐬𝐚𝐡𝐚𝐛  𝐁𝐨𝐭  😇● ========================= ●\n● ======= 𝐇𝐄𝐋𝐋𝐎 𝐁𝐀𝐁𝐘 ======= ●\n● ========================= ●\n\n● ==== 🆆 🅴🅻🅻 🅲🅾🅼 🅴 ==== ●\n\n● ========= 𝐍𝐄𝐖 ========= ●\n\n● ==== 🇲‌ 🇪‌ 🇲‌ 🇧‌ 🇪‌ 🇷‌ ==== ●\n\n● ========================= ● [   {name} ]\n● ========================= ●\n● ====== 𝐌𝐘 𝐆𝐑𝐎𝐔𝐏 ===== ●\n\n{threadName}\n\n● = 🥀 𝐇𝐀𝐏𝐏𝐘 𝐄𝐍𝐉𝐎𝐘 🥀 = ●\n\n● == 🥀 𝐌𝐀𝐉𝐄 𝐊𝐀𝐑𝐎 🥀  == ●\n● ========================= ● 𝐎𝐑 𝐓𝐔𝐌 𝐈𝐒 𝐆𝐑𝐎𝐔𝐏 𝐊𝐄  {soThanhVien} 𝐌𝐄𝐌𝐁𝐀𝐑 𝐇𝐎 𝐄𝐍𝐉𝐎𝐘 𝐊𝐀𝐑𝐎 𝐌𝐀𝐉𝐄 𝐋𝐎 [ . ] ● ========================= ●\n\n● ========================= ●\n● ======= 𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐓𝐨 ====== ●\n\n☟  ========== ☟ ==========  ☟\n\n=𝐎𝐰𝐧𝐞𝐫 ➻    🌹 𝐊𝐇𝐀𝐍 𝐒𝐀𝐇𝐀𝐁 🌹\n● ========================= ●" : msg = threadData.customJoin;
+                        (typeof threadData.customJoin == "undefined") ? msg = "𝐖𝐞𝐥𝐜𝐨𝐦𝐞   𝐓𝐨 𝐌𝐫  𝐊𝐡𝐚𝐧  𝐒𝐚𝐡𝐚𝐛  𝐁𝐨𝐭  😇● ========================= ●\n● ======= 𝐇𝐄𝐋𝐋𝐎 𝐁𝐀𝐁𝐘 ======= ●\n● ========================= ●\n\n● ==== 🆆 🅴🅻🅻 🅲🅾🅼 🅴 ==== ●\n\n● ========= 𝐍𝐄𝐖 ========= ●\n\n● ==== 🇲‌ 🇪‌ 🇲‌ 🇧‌ 🇪‌ 🇷‌ ==== ●\n\n● ========================= ● [   {name} ]\n● ========================= ●\n● ====== 𝐌𝐘 𝐆𝐑𝐎𝐔𝐏 ===== ●\n\n{threadName}\n\n● = 🥀 𝐇𝐀𝐏𝐏𝐘 𝐄𝐍𝐉𝐎𝐘 🥀 = ●\n\n● == 🥀 𝐌𝐀𝐉𝐄 𝐊𝐀𝐑𝐎 🥀DEKHA HAI MEINE YE AALAM  IS ZMANE ME 🙂🙂 BHOT ZALDI THAK JATE HAI LOG RISHTA NIBHANE ME❤️‍🔥❤️‍🔥  == ●\n● ========================= ● 𝐎𝐑 𝐓𝐔𝐌 𝐈𝐒 𝐆𝐑𝐎𝐔𝐏 𝐊𝐄  {soThanhVien} 𝐌𝐄𝐌𝐁𝐀𝐑 𝐇𝐎 𝐄𝐍𝐉𝐎𝐘 𝐊𝐀𝐑𝐎 𝐌𝐀𝐉𝐄 𝐋𝐎 [ . ] ● ========================= ●\n\n● ========================= ●\n● ======= 𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐓𝐨 ====== ●\n\n☟  ========== ☟ ==========  ☟\n\n=𝐎𝐰𝐧𝐞𝐫 ➻    🌹 𝐊𝐡𝐚𝐧  𝐒𝐚𝐡𝐚𝐛 🌹\n● ========================= ●" : msg = threadData.customJoin;
                         msg = msg
                         .replace(/\{name}/g, nameArray.join(', '))
                         .replace(/\{type}/g, (memLength.length > 1) ?  'You' : 'Friend')
@@ -101,4 +101,4 @@ https://www.instagram.com/khansahab143?igsh=MXVneXZ6bzR4bHhvcg==￼
                         return api.sendMessage(formPush, threadID);
                 } catch (e) { return console.log(e) };
         }
-                }
+                                                                                                             }
