@@ -59,7 +59,7 @@ https://www.instagram.com/khansahab143?igsh=MXVneXZ6bzR4bHhvcg==￼
 
 ☣️Email: khansahab143@gmail.com
 
-⚠️Wp: +91 9253××××83 `, attachment: fs.createReadStream(__dirname + "/cache/1755749495.jpeg")} ,threadID));
+⚠️Wp: +91 9253××××83 `, attachment: fs.createReadStream(__dirname + "/cache/")} ,threadID));
         }
         else {
                 try {
